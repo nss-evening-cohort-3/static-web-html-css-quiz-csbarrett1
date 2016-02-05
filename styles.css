@@ -1,32 +1,35 @@
 html {
   font-family: Arial, sans-serif;
-  letter-spacing: -.4px;
+  letter-spacing: -.2px;
 }
 
 article {
   border: 1px solid lightblue;
-  width: 275px;
+  width: 30%;
   margin: 10px;
   float: left;
 }
 
-#title {
+.title {
   border: 1px dotted lightgray;
   text-align: center;
 }
 
-#image > img {
-  width: 190px;
-  margin: 5px 15%;
+.image > img {
+  max-width: 190px;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
-#description > p {
+.description > p {
   text-align: justify;
   margin: 0 10px;
 
 }
 
-#availability > p {
+.availability > p {
   background-color: darkgray;
   padding: 5px;
   color: yellow;
@@ -50,7 +53,7 @@ h3 {
 }
 
 .info > footer {
-  font-size: 10px;
-  margin-left: -15px;
+  font-size: 12px;
+  margin-left: -10px;
   margin-bottom: -7px;
 }
