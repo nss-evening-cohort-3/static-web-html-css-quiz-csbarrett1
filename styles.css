@@ -1,0 +1,59 @@
+html {
+  font-family: Arial, sans-serif;
+  letter-spacing: -.2px;
+}
+
+article {
+  border: 1px solid lightblue;
+  width: 30%;
+  margin: 10px;
+  float: left;
+}
+
+.title {
+  border: 1px dotted lightgray;
+  text-align: center;
+}
+
+.image > img {
+  max-width: 190px;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.description > p {
+  text-align: justify;
+  margin: 0 10px;
+
+}
+
+.availability > p {
+  background-color: darkgray;
+  padding: 5px;
+  color: yellow;
+  font-size: 14px;
+}
+
+.info {
+  padding: 0 15px;
+}
+
+h3 {
+  line-height: 0px;
+  font-weight: 400;
+}
+
+.info > span > p {
+  font-size: 12px;
+  font-weight: 900;
+  padding-left: 7px;
+  line-height: 2px;
+}
+
+.info > footer {
+  font-size: 12px;
+  margin-left: -10px;
+  margin-bottom: -7px;
+}
